@@ -1,8 +1,8 @@
 # Cosmos
 
-app development structure
+### App development structure
 
-1.- back-end
+Backend
   a.- GET REQUEST RESPONSE static html file
   b.- POST REQUEST audio file -- RESPONSE: success or no success save to intent database
   
