@@ -1,6 +1,5 @@
-const greeting = "Hola"
-const name = "Jorge"
-
-const final = `${greeting} ${name}!`
-
-console.log(final)
+const express = require('express')
+const app = express()
+const port = 3000
+app.get('/', (req, res) => res.send('Stay at home!'))
+app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
